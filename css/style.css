@@ -104,7 +104,7 @@ p {
   margin-bottom: 1rem;
 }
 .navbar-brand img{
-  width: 80px;
+  width: 80px !important;
 }
 abbr[title],
 abbr[data-original-title] {
