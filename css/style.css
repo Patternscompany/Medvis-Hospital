@@ -10801,6 +10801,10 @@ h5,
   .navbar.fixed .navbar-nav .nav-link:hover {
     color: #16bca8;
   }
+  .navbar.fixed .logo-image .fixedImage{
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .nav-item.drop-down .drop-items li {
