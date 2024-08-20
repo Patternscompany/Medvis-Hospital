@@ -101,13 +101,13 @@
   <!-- END nav -->
   <style>
     .navbar-brand img{
-  width: 80px !important;
+  width: 60px !important;
 }
   </style>
-  <section class="home-slider owl-carousel">
+  <!-- <section class="home-slider owl-carousel">
     <div class="slider-item" style="background-image:url(./images/medvishero1.jpg);"
       data-stellar-background-ratio="0.5">
-      <!-- <div class="overlay"></div> -->
+      <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-end">
           <div class="col-md-6 text ftco-animate">
@@ -120,7 +120,7 @@
       </div>
     </div>
 
-    <!-- <div class="slider-item" style="background-image:url(./images/medvishero.jpg);background-position: center;">
+    <div class="slider-item" style="background-image:url(./images/medvishero.jpg);background-position: center;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -131,8 +131,97 @@
           </div>
         </div>
       </div>
-    </div> -->
-  </section>
+    </div>
+  </section> -->
+ 
+  <section class="w3l-main-slider" id="home">
+    <div class="banner-content">
+        <div id="demo-1">
+            <div class="demo-inner-content">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                    <div class="banner-info col-lg-12 align-content-center justify-content-center">
+                        <p class="mb-1">Elevate your smile’s with our</p>
+                        <h1 style="color: white;font-weight: 800;">Best Hospital in Manikonda Jagir,HYDERABAD</h1>
+                        <!-- <a class="btn btn-style btn-style-2 mt-sm-5 mt-4 book-now" href="./appointment">Book Now</a> -->
+                    </div>
+                   
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //banner section -->
+<style>
+  /* banner */
+#demo-1 {
+  background: url(images/medvishero1.jpg) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  z-index: 0;
+  /* margin-top: 4rem; */
+}
+@media (max-width: 992px) {
+  #demo-1 {
+    background: url(images/medvishero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+#demo-1:before {
+  content: "";
+
+  /* background: var(--layer); */
+  /* background: #fb00006b; */
+  background-color: var(--layer2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.demo-inner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 100%;
+}
+
+.banner-info {
+  max-width: 80%;
+}
+@media(max-width:992px){
+  .banner-info {
+    max-width: 100%;
+  }
+}
+.demo-inner-content h3 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banner-info p {
+  color: #fff;
+  font-size: 18px;
+}
+</style>
 
   <section class="ftco-section ftco-no-pt ftco-no-pb" style="background-color: #16bca8;">
     <div class="container">
