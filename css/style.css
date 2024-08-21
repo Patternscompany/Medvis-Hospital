@@ -4519,15 +4519,16 @@ input[type="button"].btn-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  /* -ms-flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
+  /* -webkit-box-pack: justify;
+  -ms-flex-pack: justify; */
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  /* flex-direction: column; */
 }
 
 .navbar > .container,
@@ -4596,6 +4597,19 @@ input[type="button"].btn-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  
+}
+@media(max-width:992px){
+  .navbar-collapse{
+    position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #16bca8;
+  width: 100%;
+  }
+  .navbar-collapse ul{
+    padding-left: 1.5rem;
+    }
 }
 
 .navbar-toggler {
