@@ -142,6 +142,13 @@
     console.log("show");
   });
 
+  const item=document.querySelector(".nav-item.drop-down .drop-items");
+  const itemBtn=document.querySelector(".nav-item.drop-down");
+
+itemBtn.addEventListener("click",()=>{
+  itemBtn.classList.toggle("active");
+})
+
   // scroll
   var scrollWindow = function () {
     $(window).scroll(function () {
