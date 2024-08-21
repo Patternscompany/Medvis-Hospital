@@ -105,6 +105,30 @@
         },
       },
     });
+    $(".home").owlCarousel({
+      autoplay: true,
+      center: true,
+      loop: true,
+      items: 1,
+      margin: 30,
+      stagePadding: 0,
+      nav: false,
+      navText: [
+        "<span class='ion-md-arrow-back'></span>",
+        "<span class='ion-chevron-right'></span>",
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        1000: {
+          items: 1,
+        },
+      },
+    });
   };
   carousel();
   // document.addEventListener("contextmenu", function (e) {
