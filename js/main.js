@@ -106,12 +106,13 @@
     });
     $(".home").owlCarousel({
       autoplay: true,
-      center: true,
+      // center: true,
       loop: true,
       items: 1,
-      margin: 30,
-      stagePadding: 0,
+      // margin: 30,
+      // stagePadding: 0,
       nav: true,
+      autoplay:true,
       navText: [
         '<i class="fa fa-arrow-left"></i>',
         '<i class="fa fa-arrow-right"></i>',
