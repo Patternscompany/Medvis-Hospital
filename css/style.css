@@ -51,7 +51,15 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+.navbar-brand img{
+  width: 100px;
+}
+.top-header p{
+  color: black !important;
+}
+.top-header p i{
+  color: #007bff;
+}
 article,
 aside,
 figcaption,
