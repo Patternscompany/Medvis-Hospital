@@ -4446,7 +4446,21 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none;
 }
-
+.top-header .topper:nth-child(2){
+  background-color: var(--primary);
+  border-bottom-left-radius: 100px;
+  
+ }
+.top-header .topper:nth-child(2) p.con{
+color: var(--light) !important; 
+padding-block: 0.5rem; 
+ }
+.top-header .topper:nth-child(2) p.con i{
+color: var(--light) !important;  
+ }
+ .top-header .container{
+  max-width: 100%;
+ }
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -4465,7 +4479,7 @@ input[type="button"].btn-block {
   
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
-background-color:var(--primaryTwo);
+background-color:var(--primary);
 
 }
 .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus{
