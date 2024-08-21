@@ -67,8 +67,7 @@
         "<span class='ion-md-arrow-back'></span>",
         "<span class='ion-chevron-right'></span>",
       ],
-      // mouseDrag: true,
-      // touchDrag: true,
+      
       responsive: {
         0: {
           items: 1,
@@ -117,6 +116,8 @@
         '<i class="fa fa-arrow-left"></i>',
         '<i class="fa fa-arrow-right"></i>',
       ],
+      mouseDrag: true,
+      touchDrag: true,
    dots:false,
       responsive: {
         0: {
