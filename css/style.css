@@ -202,7 +202,11 @@ a:not([href]):not([tabindex]):focus {
 a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
-
+.appointment-btn{
+  background-color: #4f5eea;
+  color: #ffffff !important;
+  border-radius: 100px;
+}
 pre,
 code,
 kbd,
