@@ -112,11 +112,12 @@
       items: 1,
       margin: 30,
       stagePadding: 0,
-      nav: false,
+      nav: true,
       navText: [
-        "<span class='ion-md-arrow-back'></span>",
-        "<span class='ion-chevron-right'></span>",
+        '<i class="fa fa-arrow-left"></i>',
+        '<i class="fa fa-arrow-right"></i>',
       ],
+   dots:false,
       responsive: {
         0: {
           items: 1,

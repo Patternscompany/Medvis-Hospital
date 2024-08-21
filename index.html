@@ -33,6 +33,7 @@
 </head>
 
 <body>
+  
   <div class="py-md-2 py-1 border-bottom top-header">
     <div class="container">
       <div class="row  d-flex justify-content-between align-items-center ">
@@ -154,7 +155,7 @@
                 </div>
             </div>
         </div>
-        <div id="demo-1">
+        <div id="demo-2">
             <div class="demo-inner-content">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
@@ -176,6 +177,26 @@
 #demo-1 {
   background: url(images/medvishero1.jpg) no-repeat;
   background-size: cover;
+  background-position: center 10%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  z-index: 0;
+  /* margin-top: 4rem; */
+}
+#demo-2 {
+  background: url(images/medvishero.jpg) no-repeat;
+  background-size: cover 10%;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -192,17 +213,25 @@
   /* margin-top: 4rem; */
 }
 @media (max-width: 992px) {
-  #demo-1 {
-    background: url(images/medvishero.jpg);
+  /* #demo-1 {
+    background: url(images/medvishero1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
+  #demo-2 {
+    background: url(images/medvishero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+
+
+
 }
 #demo-1:before {
   content: "";
 
-  /* background: var(--layer); */
-  /* background: #fb00006b; */
+
   background-color: var(--layer2);
   position: absolute;
   left: 0;
@@ -245,7 +274,7 @@
 
 }
 #demo-1 {
-  min-height: 50vh;
+  /* min-height: 50vh; */
 }
 }
 </style>
