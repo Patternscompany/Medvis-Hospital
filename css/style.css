@@ -4690,7 +4690,7 @@ display: none;
 }
 .navbar-toggler span{
   font-size: 1.5rem;
-  color: var(--dark);
+  color: var(--primary);
 }
 .navbar-toggler:hover,
 .navbar-toggler:focus {
