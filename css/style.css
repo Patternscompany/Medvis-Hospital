@@ -5810,6 +5810,7 @@ a.badge-dark:focus {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+
 }
 
 .list-group {
@@ -10801,7 +10802,7 @@ h5,
     color:var(--gray-dark);
   }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-    color: #fff;
+    color: var(--primary);
   }
 }
 
