@@ -11612,7 +11612,8 @@ section.videos {
 }
 .ftco-services .services .media-body h3 {
   font-size: 18px;
-  color: #000000;
+  color: var(--primaryTwo);
+
 }
 
 .intro {
@@ -11996,6 +11997,7 @@ textarea.form-control {
 .services.ftco-animate.box .media {
   box-shadow: 4px 4px 8px white, -4px -4px 8px white;
   border-radius: 20px;
+  background-color: var(--primary);
 }
 .services.ftco-animate.box .media .icon {
   margin-top: 10px;
