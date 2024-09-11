@@ -87,7 +87,19 @@
             </a>
             <i class="fa fa-angle-down mobile"></i>
             <ul class="drop-items">
-              <li class="nav-item drop-down"><a href="#" class="nav-link">Dental - Smile Designing</a>
+              <li class="nav-item sub-drop-down">
+                <a href="#" class="nav-link">Dental - Smile Designing 
+                  <i class="fa fa-angle-right desktop"></i>
+                </a>
+               
+                <ul class="sub-drop-items">
+                  <li><a href="./services/general-medicine.html">General Medicine</a></li>
+                  <li><a href="./services/day-care-procedures.html">Day Care Procedures</a></li>
+                  <li><a href="./services/physiotherapy.html">Physiotherpy</a></li>
+                  <li><a href="./services/lab.html">Lab Service</a></li>
+               
+                </ul>
+             
                 
               </li>
               <li><a href="./services/general-medicine.html">General Medicine</a></li>
@@ -117,9 +129,50 @@
   <!-- END nav -->
   <style>
 
+.sub-drop-down{
+  position: relative;
 
+}
+.sub-drop-down .sub-drop-items{
+  position: absolute;
+  left: 100%;
+  top: 0%;
+  background-color: #16bca8;
+  width: 250px;
+  max-width: 100%;
+  padding: 0;
+  list-style-type: none;
+  display: none;
+}
+.sub-drop-down:hover .sub-drop-items{
+  display: block;
+}
+.sub-drop-down:hover .sub-drop-items li a{
+  color: white !important;
+}
+.sub-drop-down .sub-drop-items li:hover a{
+  color: #16bca8 !important;
+}
+.sub-drop-down a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-drop-down a .fa-angle-right{
+  float: right;
 
+}
 
+@media(max-width:992px){
+  .sub-drop-down .sub-drop-items{
+    position: unset;
+    width: 100%;
+  }
+  .sub-drop-down:hover .sub-drop-items{
+    display: none;
+  }
+
+}
   </style>
   <!-- <section class="home-slider owl-carousel">
     <div class="slider-item" style="background-image:url(./images/medvishero1.jpg);"
