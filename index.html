@@ -89,7 +89,7 @@
             <ul class="drop-items">
               <li class="nav-item sub-drop-down">
                 <a href="#" class="nav-link">Dental - Smile Designing 
-                  <i class="fa fa-angle-right desktop"></i>
+                  <i class="fa fa-angle-right"></i>
                 </a>
                
                 <ul class="sub-drop-items">
@@ -129,11 +129,11 @@
   <!-- END nav -->
   <style>
 
-.sub-drop-down{
+.nav-item.sub-drop-down{
   position: relative;
 
 }
-.sub-drop-down .sub-drop-items{
+.nav-item.sub-drop-down .sub-drop-items{
   position: absolute;
   left: 100%;
   top: 0%;
@@ -144,34 +144,36 @@
   list-style-type: none;
   display: none;
 }
-.sub-drop-down:hover .sub-drop-items{
+.nav-item.sub-drop-down:hover .sub-drop-items{
   display: block;
 }
-.sub-drop-down:hover .sub-drop-items li a{
+.nav-item.sub-drop-down:hover .sub-drop-items li a{
   color: white !important;
 }
-.sub-drop-down .sub-drop-items li:hover a{
+.nav-item.sub-drop-down .sub-drop-items li:hover a{
   color: #16bca8 !important;
 }
-.sub-drop-down a{
+.nav-item.sub-drop-down a{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.sub-drop-down a .fa-angle-right{
+.nav-item.sub-drop-down a .fa-angle-right{
   float: right;
 
 }
 
 @media(max-width:992px){
-  .sub-drop-down .sub-drop-items{
+  .nav-item.sub-drop-down .sub-drop-items{
     position: unset;
     width: 100%;
   }
-  .sub-drop-down:hover .sub-drop-items{
+  .nav-item.sub-drop-down:hover .sub-drop-items{
     display: none;
   }
-
+  .nav-item.sub-drop-down.active .sub-drop-items{
+  display: block;
+}
 }
   </style>
   <!-- <section class="home-slider owl-carousel">

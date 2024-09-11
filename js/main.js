@@ -194,12 +194,39 @@
     console.log("show");
   });
 
-  const item=document.querySelector(".nav-item.drop-down .drop-items");
-  const itemBtn=document.querySelector(".nav-item.drop-down");
 
-itemBtn.addEventListener("click",()=>{
-  itemBtn.classList.toggle("active");
-})
+//   const itemBtn=document.querySelector(".nav-item.drop-down");
+//   const itemBtn1=document.querySelector(".sub-drop-down .fa-angle-right");
+//   const itemOpen=document.querySelector(".nav-item.sub-drop-down")
+
+// itemBtn.addEventListener("click",()=>{
+//   itemBtn.classList.toggle("active");
+ 
+// })
+// itemBtn1.addEventListener("click",()=>{
+//   itemOpen.classList.toggle("subDown");
+//   itemBtn.classList.toggle("active");
+// })
+
+
+
+const btn = document.querySelector(".nav-item.drop-down");
+const btnIcon=document.querySelector(".fa-angle-down.mobile");
+const btn1 = document.querySelector(".nav-item.sub-drop-down");
+const btnIcon1=document.querySelector(".fa-angle-right");
+
+
+btn.addEventListener("click", () => {
+  btn.classList.toggle("active");
+  // btn1.classList.remove("active");
+  btnIcon.classList.toggle("fa-angle-up");
+});
+
+btn1.addEventListener("click", () => {
+  btn1.classList.toggle("active");
+  btn.classList.remove("active");
+  btnIcon1.classList.toggle("fa-angle-up");
+});
 
   // scroll
   var scrollWindow = function () {
