@@ -4576,6 +4576,7 @@ border: 0;
   justify-content: space-between;
   padding: 0.5rem 1rem;
   /* flex-direction: column; */
+  
 }
 
 .navbar > .container,
@@ -4591,6 +4592,7 @@ border: 0;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-left: -200px;
 }
 
 .navbar-brand {
